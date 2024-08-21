@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* navbar styling */
+
+.header{
+    background-color: white;
+    position: sticky;
+    top: 0;
+}
+.linkers{
+    display: flex; 
+    justify-content: space-between;
+    gap: 600px;
+}
+.links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+ 
+}
+ul{
+    align-items: center;
+}
+.navlist{
+    justify-content: space-around;
+    padding: 10px;
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10vw;
+    height: 100vh;
+    background-color: white;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    transition: width 5s ;
+
+
+}
+.fd:hover{
+    background-color: gray;
+
+}
+.ab:hover{
+    background-color: gray;
+
+}
+li{
+    list-style-type: none;
+    
+}
+a{
+    text-decoration: none; 
+    color: black;  
+    font-size: 30px;
+    padding: 10px;
+    justify-content: space-between;
+}
+.nav-burger{
+    cursor: pointer;
+    font-size: 30px;
+    padding: 10px;
+}
+.open{
+    display: block;
+    width: 40vw;
+    
+    
+}
+.closemenu{
+    cursor: pointer;
+    padding: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px
+    
+}
+.closemenu:hover{
+    background-color: gray;
+
+}
+
+/* styling of the menu */
+
+img{
+    width: 280px;
+    height: 400px;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 20px;
+    gap: 100px;
+    
+}
+.sandwiches{
+    display: flex;
+    gap: 20px;
+}
+.sandwiches2{
+    display: flex;
+    gap: 20px;
+}
+.sandwich{
+    width: 300px;
+    
+}
+.sandwich h4{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+}
+.sandwich p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 20px
+}
+
+/* syling about */
+.chef img{
+    width: 700px;
+    height: 650px;
+}
+.about{
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+.about h3{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 30px
+}
+.about h5{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px
+}
+.about p{
+    padding: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15px
+}
+.about i{
+    font-size: 20px;
+}
+
+/* styling the footer */
+
+.footer{
+    display: flex;
+    gap: 20px;
+    padding: 50px 30px;
+}
+.foot{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.blogposts{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.post img{
+    width: 100px;
+    height: 100px;
+}
+.posts{
+    display: flex;
+    gap: 10px;
+}
+.posts:hover{
+    padding: 10px;
+    background-color: rgb(85, 82, 82);
+}
+.posts2{
+    display: flex;
+    gap: 10px;
+}
+.posts2:hover{
+    padding: 10px;
+    background-color: rgb(85, 82, 82);
+}
+.tags{
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+}
+.tgs{
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+.tgs p{
+    padding: 2px 15px;
+    justify-content: space-evenly;
+}
+.travel{
+    background-color: black;
+    color: white;
+}
+.tg{
+    background-color: gray;
+    color: white;
+}
